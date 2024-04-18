@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pesquisa de satisfação</title>
+    </head>
+    <body>
+        <h1>Pesquisa de satisfação</h1>
+        <form method="post" action="dados-pesquisa.html">
+            <h2>Dados pessoais</h2>
+            <div>
+                <p>
+                    <label for="name">Nome:</label><br>
+                    <input type="text" placeholder="Seu nome aqui" id="name">
+                </p>
+                <p>
+                    <label for="email">E-Mail:</label><br>
+                    <input type="email" placeholder="exemplo@exemplo.com" id="email">
+                </p>
+                <p>
+                    <label for="number">Telefone:</label><br>
+                    <input type="number" placeholder="31912345678" id="number">
+                </p>
+            </div>
+            <h2>Pesquisa</h2>
+            <div>
+                <p>De 1 a 5, o quão propenso você está a utilizar o nossos serviços novamente?</p>
+                <p>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </p>
+            </div>
+            <div>
+                <p>Como você avalia o atendimento prestado por nossos funcionários?</p>
+                <p>
+                    <input type="radio" id="Msatisfeito" name="satisfacao">
+                    <label for="Msatisfeito">Muito satisfeito</label>
+                </p>
+                <p>
+                    <input type="radio" id="satisfeito" name="satisfacao">
+                    <label for="satisfeito">Satisfeito</label>
+                </p>
+                <p>
+                    <input type="radio" id="neutro" name="satisfacao">
+                    <label for="neutro">Neutro</label>
+                </p>
+                <p>
+                    <input type="radio" id="insatisfeito" name="satisfacao">
+                    <label for="insatisfeito">Insatisfeito</label>
+                </p>
+                <p>
+                    <input type="radio" id="minsatisfeito" name="satisfacao">
+                    <label for="minsatisfeito">Muito insatisfeito</label>
+                </p>
+            </div>
+            <div>
+                <p>
+                    Como você tomou conhecimento de nossos serviços?</p>
+                <p>
+                    <input type="radio" id="Instagram" name="conhecimento">
+                    <label for="Instagram">Instagram</label>
+                </p>
+                <p>
+                    <input type="radio" id="Twitter" name="conhecimento">
+                    <label for="Twitter">Twitter</label>
+                </p>
+                <p>
+                    <input type="radio" id="Rádio" name="conhecimento">
+                    <label for="Rádio">Rádio</label>
+                </p>
+                <p>
+                    <input type="radio" id="amigos" name="conhecimento">
+                    <label for="amigos">Indicação de amigos</label>
+                </p>
+                <p>
+                    <input type="radio" id="Panfletos" name="conhecimento">
+                    <label for="Panfletos">Panfletos</label>
+                </p>
+                <p>
+                    <input type="radio" id="outros" name="conhecimento">
+                    <label for="outros">Outros</label>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <input type="checkbox" id="autorizacao">
+                    <label for="autorizacao">Autorizo  o compartilhamento de minha resposta com terceiros</label>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+            </div>
+        </form>
+    </body>
+    <footer><p>Yan Eduardo PDITA075</p></footer>
+</html>
