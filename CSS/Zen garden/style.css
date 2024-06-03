@@ -1,6 +1,24 @@
 /*
 Paleta de cores:
-Cor de fundo - color: rgb(31, 31, 31);
+Cor de fundo - color: rgb(24, 24, 24);
 Cor do texto - color: rgb(240, 240, 240);
 Cor de destaque - color: rgb(229, 126, 49);
 */
+
+html {
+    background: rgb(24, 24, 24);
+    color: rgb(230, 230, 230);
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+p {text-indent: 1em;}
+
+h1, h2, h3 {text-align: center;}
+h1 {font-size: 1.8rem;}
+h2 {font-size: 1.4rem;}
+h3 {font-size: 1.2rem;}
+
+abbr {font-variant: small-caps;}
+.summary {text-align: center;}
+.main p {line-height: 1.5;}
