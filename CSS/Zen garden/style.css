@@ -16,6 +16,22 @@ html {
     width: 80%;
     max-width: 1280px;
     margin: auto;
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    border-right: rgb(229, 126, 49) solid 1px;
+    padding-right: 2%;
+}
+
+.design-selection {
+    position: absolute;
+    top: 550px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 0.9em;
 }
 
 .intro {
